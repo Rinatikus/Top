@@ -154,7 +154,7 @@ thrd_t	thrd_current ()
 
 thrd_creator_t	thrd_detach (thrd_t thr)
 {
-	if ( ! CloseHandle(thr._Hnd)) return thrd_error;
+	if ( ! TerminateThread(thr.hd, FALSE)) return thrd_error;
 	return thrd_success;
 };
 

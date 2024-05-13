@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Top" Database="" Version="10000">
+  <Project Name="Hello_C" Path="Hello_C/Hello_C.project" Active="No"/>
+  <Project Name="Hello_CPP" Path="Hello_CPP/Hello_CPP.project" Active="No"/>
+  <Project Name="Lesson_C" Path="Lesson_C/Lesson_C.project" Active="No"/>
+  <Project Name="Lesson_CPP" Path="Lesson_CPP/Lesson_CPP.project" Active="No"/>
+  <Project Name="Lesson_Queue" Path="Lesson_Queue/Lesson_Queue.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="Hello_C" ConfigName="Debug"/>
+      <Project Name="Hello_CPP" ConfigName="Debug"/>
+      <Project Name="Lesson_C" ConfigName="Debug"/>
+      <Project Name="Lesson_CPP" ConfigName="Debug"/>
+      <Project Name="Lesson_Queue" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="Hello_C" ConfigName="Release"/>
+      <Project Name="Hello_CPP" ConfigName="Release"/>
+      <Project Name="Lesson_C" ConfigName="Release"/>
+      <Project Name="Lesson_CPP" ConfigName="Release"/>
+      <Project Name="Lesson_Queue" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
